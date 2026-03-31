@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "types": ["vite/client"],
+    "paths": {
+      "@/utils/*": ["./utils/*"]
+    }
+  },
+  "include": ["vite.config.ts", "utils"]
+}
